@@ -2,8 +2,12 @@ body {
   font-family: 'Verdana', 'Arial', sans-serif;
 }
 
+header {
+	text-align: center;
+}
+
 #navigation {
-  background-color: blue;
+  background-color: #417cf2;
   overflow: hidden;
   width: 100%;
   margin: 0;
@@ -36,5 +40,5 @@ body {
 }
 
 #navigation ul li a:hover {
-  background-color: #000;
+  background-color: #1a3469;
 }
