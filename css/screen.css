@@ -9,6 +9,7 @@ header {
   display: flex;
   flex-direction: row;
   vertical-align: center;
+  text-align: center;
 }
 
 #navigation {
