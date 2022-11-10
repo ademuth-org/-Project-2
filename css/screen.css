@@ -1,0 +1,32 @@
+#navigation {
+  background-color: blue;
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  float: left;
+}
+
+#navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+#navigation ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+}
+
+#navigation ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
