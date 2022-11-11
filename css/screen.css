@@ -14,6 +14,13 @@ header {
 
 }
 
+img {
+  width: auto;
+  max-height: 15%;
+  border-radius: 25px;
+  padding: 5px 5px;	
+}
+
 #navigation {
   background-color: #417cf2;
   overflow: hidden;
