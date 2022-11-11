@@ -14,16 +14,6 @@ header {
 
 }
 
-#row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-#column {
-  flex-basis: 100%;
-}
-
 #navigation {
   background-color: #417cf2;
   overflow: hidden;
