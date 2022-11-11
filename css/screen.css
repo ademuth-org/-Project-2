@@ -14,13 +14,13 @@ header {
 
 }
 
-.row {
+#row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-.column {
+#column {
   flex-basis: 100%;
 }
 
