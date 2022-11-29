@@ -16,8 +16,8 @@ header {
 
 .content{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 img {
@@ -69,6 +69,6 @@ img {
 }
 
 @media screen and (min-width: 960px) {
-  
+
 }
 
