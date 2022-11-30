@@ -19,8 +19,12 @@ header {
   margin-right: 3%;
 }
 
-.list ul {
+.slides ul {
   list-style-type: none;	
+}
+
+.list ul {
+  list-style-type: circle;	
 }
 
 p {
