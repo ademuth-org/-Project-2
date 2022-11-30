@@ -19,8 +19,12 @@ header {
   margin-right: 3%;
 }
 
+.slides ul {
+  list-style-type: none;	
+}
+
 p {
-	position: relative;
+  position: relative;
 }
 
 img {
