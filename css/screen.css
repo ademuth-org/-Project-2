@@ -16,7 +16,6 @@ header {
   text-align: center;
   align-items: center;
   justify-content: center;
-
 }
 
 .slides {
@@ -25,7 +24,7 @@ header {
   margin-left: 3%;
   margin-right: 3%;
 }
-
+/*
 p {
 	position: relative;
 }
@@ -36,7 +35,7 @@ img {
   border-radius: 25px;
   padding: 5px 5px;	
 }
-
+*/
 #navigation {
   background-color: #417cf2;
   overflow: hidden;
@@ -128,6 +127,7 @@ img {
   font-weight: 500;
 }
 
+/*
 @media screen and (min-width: 600px) {
   .slides {
     margin-left: 10%;
@@ -141,4 +141,6 @@ img {
     margin-right: 20%;
   }
 }
+
+*/
 
