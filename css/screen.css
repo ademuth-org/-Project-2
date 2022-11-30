@@ -14,10 +14,14 @@ header {
 
 }
 
-.content{
+.content {
   display: block;
   margin-left: 3%;
   margin-right: 3%;
+}
+
+p {
+	position: relative;
 }
 
 img {
