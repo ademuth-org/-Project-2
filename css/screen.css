@@ -40,7 +40,7 @@ img {
 
 #navigation {
   background-color: #417cf2;
-  overflow: hidden;
+  overflow: visible;
   width: 100%;
   margin: 0;
   padding: 0;
