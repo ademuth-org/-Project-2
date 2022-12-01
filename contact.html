@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/meyers_and_normalize-form_reset.css">
+	  <link rel="stylesheet" href="css/screen.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" async></script>
+    <title>Contact Us @ isud</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us @ ISUD</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="css/meyers_and_normalize-form_reset.css">
-</head>
-<body>
-  <header id="nav" class="nav">
     <img src="images/isud.png" alt="ISUD Logo">
     <h1>The International Society for Universal Dialogue</h1>
-    <div id="nav">
-      <a href="index.html">Home</a>
-      <a href="">constitution</a>
-      <img id="logo" src="images/isud.png" alt="ISUD Logo">
-      <a href="constitution.html">Constitution Page</a>
-      <a class="active" href="contact.html">Contact Us Page</a>
-    </div>
-    <div class="container">
-        <form action="action_page.php">
-      
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-      
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      
-          <label for="country">Country</label>
-          <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
-          </select>
-      
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px"></textarea>
-      
-          <input type="submit" value="Submit">
-      
-        </form>
+<div>
+  <nav id="navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+	    <li><a href="index.html">About Us</a></li>
+      <li><a href="constitution.html">Constitution</a></li>
+      <li><a href="index.html">ISUD Announcements and Events</a></li>
+	    <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</div>
+  </head>
+  <body>
+  <header>
+    <div id="form">
+      <div class="fish" id="fish"></div>
+      <div class="fish" id="fish2"></div>
+      <form id="waterform" method="post">
+      <div class="formgroup" id="name-form">
+        <label for="Let's Chat!">Let's Chat!</label>
+          <label for="name">Your name</label>
+          <input type="text" id="name" name="name" />
+      </div>
+      <div class="formgroup" id="email-form">
+          <label for="email">Your e-mail</label>
+          <input type="email" id="email" name="email" />
+      </div>
+      <div class="formgroup" id="message-form">
+          <label for="message">Your message</label>
+          <textarea id="message" name="message"></textarea>
+      </div>
+      <input type="submit" value="Send your message!" />
+      </form>
       </div>
   </header>
   <footer id="nav" class="container">
@@ -48,14 +51,17 @@
         <h1>The International Society for Universal Dialogue</h1>
       </div>
       <div id="links">
-        <a href="https://www.facebook.com/" id="fb">
-          <img src="images/fb.png" alt="facebook link">
-        </a>
-        <a href="https://www.linkedin.com" id="link">
-          <img src="images/li.png" alt="linkedin link">
+      </ul>
+      <ul class="bottom-list">
+        <li class="bottom-item"><a href="http://www.facebook.com/wix"><img src="images/facebook.png" alt="facebook"></a></li>
+        <li class="bottom-item"><a href=">https://plus.google.com/117167403531518744294/posts"><img src="images/googleplus.png" alt="googleplus"></a></li>
+        <li class="bottom-item"><a href="http://www.linkedin.com/company/wix.com?trk=tabs_biz_home"><img src="images/linkdin.png" alt="linkdin"></a></li>
+      </ul>
         </a>
       </div>
     </div>
   </footer>
 </body>
 </html>
+      
+      
