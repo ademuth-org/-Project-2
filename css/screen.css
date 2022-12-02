@@ -1,6 +1,15 @@
+/* modular scale used: https://www.modularscale.com/?1,1100,12&em&1.3 */
 body {
   font-family: 'Verdana', 'Arial', sans-serif;
+  font-size: calc(12px + 1vw); /* Responsive scaling text/font size */
 }
+
+h1 { font-size: 1.912em; }
+h2 { font-size: 1.559em; }
+h3 { font-size: 1.471em; }
+h4 { font-size: 1.3em; }
+h5 { font-size: 1.199em; }
+h6 { font-size: 1.132em; }
 
 header {
   margin-left: auto;
@@ -324,7 +333,7 @@ label{
 	background-image: url('http://www.geertjanhendriks.nl/codepen/form/octo-error.png');
 	color: red;
 }
-
+/*formerly css that was linked to header elements and their children*/
 .contact {
   margin-left: auto;
   margin-right: auto;
