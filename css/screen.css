@@ -90,7 +90,7 @@ img {
   background-color: #417cf2;
   color: white;
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: calc(12px + 1vw); /* Responsive scaling text/font size */
   border: none;
   cursor: pointer;
 }
