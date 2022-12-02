@@ -29,3 +29,19 @@ if($('#email').val() == "") {
 });
 		
 });
+
+//JS Form Validation
+function validateform(){  
+  var name = document.getElementById('name').value;
+  var email = document.getElementById('email').value;
+  var message = document.getElementById('message').value;
+  if (name == "" || name == null){  
+    alert("Please enter your name");  
+  }
+    if (email == "" || email == null){  
+    alert("Please enter your email");  
+  }
+  if (message == "" || message == null){  
+    alert("Please enter your message");  
+  }
+}
