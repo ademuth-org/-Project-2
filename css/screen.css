@@ -119,19 +119,6 @@ img {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #1a3469;}
 
-@media screen and (min-width: 600px) {
-  .slides {
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-}
-
-@media screen and (min-width: 960px) {
-  .slides {
-    margin-left: 20%;
-    margin-right: 20%;
-  }
-}
 /*FORMERLY STYLE.CSS BELOW*/
 }
 footer {
@@ -347,4 +334,19 @@ label{
   text-align: center;
   align-items: center;
   justify-content: center;
+}
+
+/*Media Queries*/
+@media screen and (min-width: 600px) {
+  .slides {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .slides {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
 }
