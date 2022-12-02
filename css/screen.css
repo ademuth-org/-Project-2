@@ -134,38 +134,6 @@ img {
 }
 /*FORMERLY STYLE.CSS BELOW*/
 }
-#nav {
-    background-color: #0051f3;
-    overflow: hidden;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    float: left;
-}
-#nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    left: 50%;
-    float: left;
-}
-#nav ul li {
-    float: left;
-    position: relative;
-    right: 50%;
-    display: block;
-}
-#nav ul li a {
-    display: block;
-    padding: 15px 25px;
-    color: #fff;
-    text-decoration: none;
-}
-#nav ul li a:hover {
-    background-color: #1a3469;
-}
 footer {
     position: relative;
     bottom: 150px;
