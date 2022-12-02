@@ -3,7 +3,7 @@
 
 body {
   font-family: 'Poppins', 'Arial', sans-serif;
-  font-size: calc(12px + 1vw); /* Responsive scaling text/font size */
+  font-size: calc(12px + 0.75vw); /* Responsive scaling text/font size */
 }
 
 h1 { font-size: 1.912em; }
@@ -92,7 +92,6 @@ img {
   background-color: #417cf2;
   color: white;
   padding: 10px 20px;
-  font-size: calc(12px + 1vw); /* Responsive scaling text/font size */
   border: none;
   cursor: pointer;
 }
