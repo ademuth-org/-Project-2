@@ -180,7 +180,7 @@ label, input, textarea{
 }
 input, textarea{
 	align-items:center;
-	width: 50%;	
+	width: 97%;	
 	border: none;
 	border-radius: 20px;
 	outline: none;
@@ -347,6 +347,9 @@ label{
   .constitution {
     margin: 0px 10%;
   }
+  #form{
+	width:80%;
+  }
 }
 
 @media screen and (min-width: 960px) {
@@ -356,5 +359,10 @@ label{
   }
   .constitution {
     margin: 0px 25%;
+  }
+  #form{
+	width:75%;
+	max-width: 1500px;
+	max-height: 750px;
   }
 }
