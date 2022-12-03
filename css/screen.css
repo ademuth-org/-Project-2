@@ -172,17 +172,6 @@ footer {
     width: 100%;
     height: 100%;
 }
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px; 
-    border: 1px solid rgb(88, 136, 148);
-    border-radius: 5px; 
-    box-sizing: border-box;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    resize: vertical
-}
-
 button[type=submit]:hover {
     background-color: #23118b;
 }
@@ -202,7 +191,6 @@ input, textarea{
 	border-radius: 20px;
 	outline: none;
 	padding: 10px;
-	font-size: 1em;
 	color: #676767;
 	transition: border 0.5s;
 	-webkit-transition: border 0.5s;
@@ -212,7 +200,6 @@ input, textarea{
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
-	
 }
 input:focus, textarea:focus{
 	border: solid 3px #77bde0;	
