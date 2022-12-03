@@ -141,6 +141,13 @@ img {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #1a3469;}
 
+
+
+
+
+
+
+
 /*FORMERLY STYLE.CSS BELOW*/
 }
 footer {
@@ -152,7 +159,6 @@ footer {
 }
 #b-nav-isud {
     text-align: center;
-    font-family: Mont-Extra-Bold, serif;
     font-size: var(--step-up-two-half);
 }
 #fb {
@@ -187,6 +193,65 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #23118b;
 }
+form{
+	margin: 0 auto;
+	width: 500px;
+	padding-top: 40px;
+	color: white;
+	position: relative;	
+}
+label, input, textarea{
+	display: block;	
+}
+input, textarea{
+	width: 500px;	
+	border: none;
+	border-radius: 20px;
+	outline: none;
+	padding: 10px;
+	font-size: 1em;
+	color: #676767;
+	transition: border 0.5s;
+	-webkit-transition: border 0.5s;
+	-moz-transition: border 0.5s;
+	-o-transition: border 0.5s;
+	border: solid 3px #98d4f3;	
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	
+}
+input:focus, textarea:focus{
+	border: solid 3px #77bde0;	
+}
+
+textarea{
+	height: 100px;	
+	resize: none; 
+	overflow: auto;
+}
+button[type="submit"]{
+	background-color: #F90;
+	color: black;
+	height: 50px;
+	cursor: pointer;
+	margin-top: 30px;
+	font-size: 1.29em;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+	-o-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+button[type="submit"]:hover{
+	background-color: #e58f0e;
+	
+}
+label{
+	font-size: 1.5em;
+	margin-top: 20px;
+	padding-left: 20px;
+}
+
 .container {
     border-radius: 5px;
     background-color: #f2f2f2;
@@ -265,64 +330,6 @@ input[type=submit]:hover {
 	overflow: hidden;
 	position: relative;
 }
-form{
-	margin: 0 auto;
-	width: 500px;
-	padding-top: 40px;
-	color: white;
-	position: relative;	
-}
-label, input, textarea{
-	display: block;	
-}
-input, textarea{
-	width: 500px;	
-	border: none;
-	border-radius: 20px;
-	outline: none;
-	padding: 10px;
-	font-size: 1em;
-	color: #676767;
-	transition: border 0.5s;
-	-webkit-transition: border 0.5s;
-	-moz-transition: border 0.5s;
-	-o-transition: border 0.5s;
-	border: solid 3px #98d4f3;	
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	box-sizing:border-box;
-	
-}
-input:focus, textarea:focus{
-	border: solid 3px #77bde0;	
-}
-
-textarea{
-	height: 100px;	
-	resize: none; 
-	overflow: auto;
-}
-button[type="submit"]{
-	background-color: #F90;
-	color: black;
-	height: 50px;
-	cursor: pointer;
-	margin-top: 30px;
-	font-size: 1.29em;
-	-webkit-transition: background-color 0.5s;
-	-moz-transition: background-color 0.5s;
-	-o-transition: background-color 0.5s;
-	transition: background-color 0.5s;
-}
-button[type="submit"]:hover{
-	background-color: #e58f0e;
-	
-}
-label{
-	font-size: 1.5em;
-	margin-top: 20px;
-	padding-left: 20px;
-}
 .formgroup, .formgroup-active, .formgroup-error{
 	background-repeat: no-repeat;
 	background-position: right bottom;
@@ -348,7 +355,7 @@ label{
 .contact {
   margin-left: auto;
   margin-right: auto;
-  width: 97%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   text-align: center;
