@@ -141,13 +141,6 @@ img {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #1a3469;}
 
-
-
-
-
-
-
-
 /*FORMERLY STYLE.CSS BELOW*/
 }
 footer {
@@ -177,7 +170,7 @@ button[type=submit]:hover {
 }
 form{
 	margin: 0 auto;
-	width: 500px;
+	width: 50%;
 	padding-top: 40px;
 	color: white;
 	position: relative;	
@@ -186,7 +179,8 @@ label, input, textarea{
 	display: block;	
 }
 input, textarea{
-	width: 500px;	
+	align-items:center;
+	width: 50%;	
 	border: none;
 	border-radius: 20px;
 	outline: none;
@@ -305,7 +299,8 @@ label{
 	-webkit-animation-delay: 12s;
 }
 #form{
-	height: 100%;	
+	width: 97%;
+	height: auto;
 	background-color: #98d4f3;
 	overflow: hidden;
 	position: relative;
@@ -318,7 +313,7 @@ label{
 	-webkit-transition: background-image 0.7s;
 	-moz-transition: background-image 0.7s;
 	-o-transition: background-image 0.7s;
-	width: 566px;
+	width: 97%;
 	padding-top: 2px;
 }
 .formgroup{
