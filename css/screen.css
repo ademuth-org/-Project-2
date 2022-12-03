@@ -24,8 +24,16 @@ header {
   justify-content: center;
 }
 
+.constitution h2 {
+  padding-top: 30px;
+}
+
+.constitution h2, h3 {
+  text-align: center;
+}
+
 .constitution {
-	
+  margin: 0px 3%;
 }
 
 .slides {
@@ -354,11 +362,17 @@ label{
     margin-left: 10%;
     margin-right: 10%;
   }
+  .constitution {
+    margin: 0px 10%;
+  }
 }
 
 @media screen and (min-width: 960px) {
   .slides {
     margin-left: 25%;
     margin-right: 25%;
+  }
+  .constitution {
+    margin: 0px 25%;
   }
 }
