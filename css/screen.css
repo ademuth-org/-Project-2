@@ -182,15 +182,8 @@ input[type=text], select, textarea {
     margin-bottom: 15px;
     resize: vertical
 }
-input[type=submit] {
-    background-color: #495ee5;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-input[type=submit]:hover {
+
+button[type=submit]:hover {
     background-color: #23118b;
 }
 form{
